@@ -1,0 +1,5 @@
+word_list=list(map(str,input("Enter list elements:").split(',')))
+word = input("Enter a element:")
+position=int(input("Enter positon:"))
+word_list.insert(position, word)
+print(word_list)
